@@ -1,15 +1,14 @@
 body{
     background-color: #f49242;
-    background-image: url('img/oklahoma-city-thunder-new york.jpeg');
     padding:10px;
+    background-image: url('img/oklahoma-city-thunder-new york.jpeg');
     margin-left: auto;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 3000px;
     background-position: center;
-
 }
 
-div.container {
+div.container{
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-areas:
@@ -22,10 +21,9 @@ div.container {
 }
 
 header {
-    background-color: #41c7f4;
-    grid-area: header;
-    padding:85px:
-
+  background-color: #41c7f4;
+  grid-area: header;
+  padding:85px:
 }
 
 main {
